@@ -9,7 +9,7 @@
       devShell."${system}" = # architecture must be specified for devShell
         pkgs.mkShell {
           name = "resume";
-          buildInputs = with pkgs; [ texlive.combined.scheme-medium ];
+          buildInputs = with pkgs; [ texlive.combined.scheme-full ];
         };
     };
 }
