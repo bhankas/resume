@@ -78,7 +78,7 @@
 
 %==== Summary ====%
 \vspace*{-10pt}
-\outline{1}[Title]{}
+\outline{1}[Title]{Title}
 \begin{center}
 	{\Huge \scshape {Payas Relekar}}\\
 	\href{mailto:relekarpayas@gmail.com}{relekarpayas@gmail.com} $\cdot$ \href{mailto:payas@relekar.org}{payas@relekar.org} \\
@@ -122,7 +122,7 @@
 \header{Work Experience}
 \vspace{1mm}
 
-\outline{2}[Unified Payments Interface]{Onecard / FPL}
+\outline{2}[Unified Payments Interface (UPI), CMS]{Onecard / FPL}
 \textbf{FPL Technologies (\href{https://www.getonecard.app/}{Onecard})} \\
 \noindent
 \begin{tabularx}{\textwidth}{ l l>{\raggedleft\arraybackslash}X}
@@ -139,12 +139,12 @@
 	\item Initiated and spearheaded restructure and Java upgrade (8 to 21) for existing authorization engine monorepo. Led cross-team efforts to improve build pipelines with service separation, caching and other application performance improvements.
     \item Designed and implemented internal framework for dynamically encrypting PII (Personally Identifiable Information) at application level, with zero-downtime key rotation and fine-grained control.
     \item Designed and improved multiple security and compliance frameworks for card data encryption and hashing without impacting existing flows.
-    \item Built a generic database access API to dynamically and securely update database entries as backoffice operation backbone. This API immediately reduced manual labor and chances or error during last-ditch correction efforts.
-    \item Introduced redis as caching layer to reduce database load by 30-60\% for most heavily queried data, including account balances.
+    \item Built a generic database access API to dynamically and securely update database entries as backoffice operation backbone.
+    \item Introduced {\href{https://github.com/redis/redis}{redis}} as caching layer to reduce database load by 30-60\% for most heavily queried data, including account balances.
     \item Initiated migration of team's monitoring flows from AWS Cloudwatch to Prometheus+Grafana. This stack gave team greater control with fine grained monitoring for nearly every metric necessary, with near-complete automation of monitoring, reducing manual intervention.  
     \item Actively participated and improved agile practices within team, including daily standups, backlog refinement and sprint planning. 
 	\item Participated in hiring and onboarding of new team members in UPI and other existing projects. Mentored freshers and new team members to speed up onboarding.
-	\item \textbf{Technologies}: Java (8-21), jPOS, Hibernate, PostgreSQL, AWS, Docker, Prometheus, Micrometer
+	\item \textbf{Technologies}: Java (8-21), {\href{https://jpos.org/}{jPOS}}, Hibernate, PostgreSQL, AWS, Docker, Prometheus, Micrometer
 \end{itemize}
 
 \outline{2}[ACI Secure eCommerce]{ACI Worldwide, Inc}
